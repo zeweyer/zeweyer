@@ -47,6 +47,7 @@ https://github.com/zeweyer/drop-tower-braking-dynamics
 - Numerical simulation and scientific computing  
 
 Python · MATLAB · R · Linux
+
 NumPy · SciPy · scikit-learn · PySR · matplotlib
 
 ---
