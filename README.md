@@ -46,7 +46,7 @@ https://github.com/zeweyer/drop-tower-braking-dynamics
 - Time series analysis  
 - Numerical simulation and scientific computing  
 
-Python · MATLAB  
+Python · MATLAB · R · Linux
 NumPy · SciPy · scikit-learn · PySR · matplotlib
 
 ---
