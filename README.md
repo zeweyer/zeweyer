@@ -56,6 +56,7 @@ NumPy · SciPy · scikit-learn · PySR · matplotlib
 
 GitHub: https://github.com/zeweyer  
 Google Scholar: https://scholar.google.co.uk/citations?user=aMrqOe0AAAAJ
+LinkedIn: https://www.linkedin.com/in/ziwei-yin-462130331/
 
 ---
 
