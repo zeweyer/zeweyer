@@ -1,4 +1,3 @@
-Ziwei Yin  
 Applied Mathematics · Symbolic Regression · Scientific Computing  
 University of Nottingham, UK  
 Incoming MPhil student in Data Intensive Science at the University of Cambridge
