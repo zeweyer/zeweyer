@@ -45,9 +45,9 @@ Studying how complex models can be analysed and represented in ways that make th
 
 <td width="50%" valign="top">
 
-<h3>02 · Mathematical Modelling & Model Discovery</h3>
+<h3>02 · Mathematical & Data-Driven Modelling</h3>
 
-Developing mathematical and data-driven representations of scientific and engineering systems, with an emphasis on structure, physical consistency, and computational usefulness.
+Using mathematical and computational methods to represent and analyse scientific and engineering systems, with an emphasis on structure, physical consistency, and data-driven model construction.
 
 <br><br>
 
@@ -57,24 +57,6 @@ Developing mathematical and data-driven representations of scientific and engine
 
 </tr>
 </table>
-
-<p align="center">
-  <b>Interpretability</b>
-  &nbsp; × &nbsp;
-  <b>Mathematical Structure</b>
-  &nbsp; × &nbsp;
-  <b>Scientific Applications</b>
-</p>
-
----
-
-## 🔬 Current Work
-
-### Interpretable Reinforcement Learning for Energy Systems
-
-I am currently exploring how reinforcement-learning policies can be represented using **simpler and more interpretable decision structures**, with microgrid energy management as the current application.
-
-`Reinforcement Learning` · `Model Interpretability` · `Energy Systems`
 
 ---
 
@@ -86,7 +68,11 @@ I am currently exploring how reinforcement-learning policies can be represented 
 
 <td width="50%" valign="top">
 
-<h3>🧠 Interpretable RL for Microgrids</h3>
+<img src="./assets/projects/microgrid.svg"
+  width="100%"
+  alt="Interpretable RL for Microgrids">
+
+<h3>Interpretable RL for Microgrids</h3>
 
 Investigating interpretable representations of reinforcement-learning policies for constrained energy-management problems.
 
@@ -102,7 +88,13 @@ Investigating interpretable representations of reinforcement-learning policies f
 
 <td width="50%" valign="top">
 
-<h3>⚡ Interpretable Chiller Modeling</h3>
+<a href="https://github.com/zeweyer/Interpretable-Chiller-Modeling">
+  <img src="./assets/projects/chiller.svg"
+       width="100%"
+       alt="Interpretable Chiller Modeling">
+</a>
+
+<h3>Interpretable Chiller Modeling</h3>
 
 Developing compact analytical models of chiller performance from operational data using symbolic regression, with emphasis on generalisation and physical consistency.
 
@@ -112,7 +104,9 @@ Developing compact analytical models of chiller performance from operational dat
 
 <br><br>
 
-<a href="https://github.com/zeweyer/Interpretable-Chiller-Modeling"><b>View project →</b></a>
+<a href="https://github.com/zeweyer/Interpretable-Chiller-Modeling">
+  <b>View project →</b>
+</a>
 
 </td>
 
@@ -122,7 +116,13 @@ Developing compact analytical models of chiller performance from operational dat
 
 <td width="50%" valign="top">
 
-<h3>⚛️ Coarse-Grained Potential Modeling</h3>
+<a href="https://github.com/zeweyer/cgpm">
+  <img src="./assets/projects/cgpm.svg"
+       width="100%"
+       alt="Coarse-Grained Potential Modeling">
+</a>
+
+<h3>Coarse-Grained Potential Modeling</h3>
 
 Discovering analytical interaction potentials from molecular-simulation data while balancing predictive accuracy, mathematical complexity, and physical fidelity.
 
@@ -132,13 +132,21 @@ Discovering analytical interaction potentials from molecular-simulation data whi
 
 <br><br>
 
-<a href="https://github.com/zeweyer/cgpm"><b>View project →</b></a>
+<a href="https://github.com/zeweyer/cgpm">
+  <b>View project →</b>
+</a>
 
 </td>
 
 <td width="50%" valign="top">
 
-<h3>🛰️ Drop-Tower Braking Dynamics</h3>
+<a href="https://github.com/zeweyer/drop-tower-braking-dynamics">
+  <img src="./assets/projects/drop-tower.svg"
+       width="100%"
+       alt="Drop-Tower Braking Dynamics">
+</a>
+
+<h3>Drop-Tower Braking Dynamics</h3>
 
 Mathematical modelling and numerical simulation of braking dynamics in physical systems.
 
@@ -148,7 +156,9 @@ Mathematical modelling and numerical simulation of braking dynamics in physical 
 
 <br><br>
 
-<a href="https://github.com/zeweyer/drop-tower-braking-dynamics"><b>View project →</b></a>
+<a href="https://github.com/zeweyer/drop-tower-braking-dynamics">
+  <b>View project →</b>
+</a>
 
 </td>
 
@@ -165,25 +175,19 @@ Mathematical modelling and numerical simulation of braking dynamics in physical 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
 <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy">
 <img src="https://img.shields.io/badge/MATLAB-Numerical%20Computing-orange?style=flat-square" alt="MATLAB">
 
 </p>
 
 <p align="center">
-
-<code>PySR</code>
-  ·   <code>gplearn</code>
-  ·   <code>Stable-Baselines3</code>
-
+  <code>PySR</code>
+  &nbsp; · &nbsp;
+  <code>gplearn</code>
+  &nbsp; · &nbsp;
+  <code>Stable-Baselines3</code>
 </p>
 
 ---
 
-## 📫 Connect
-
-<p align="center">
-  <a href="https://scholar.google.co.uk/citations?user=aMrqOe0AAAAJ">
-    <img src="https://img.shields.io/badge/Google%20Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar">
-  </a>
-</p>
