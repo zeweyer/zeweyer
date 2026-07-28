@@ -1,23 +1,21 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Zewey GitHub Profile Header">
+  <img src="./assets/header.svg" width="100%" alt="Zewey Research Profile Header">
 </p>
 
-# Hi, I'm Zewey 👋
+<p align="center">
+  <b>Incoming MPhil in Data Intensive Science @ University of Cambridge</b>
+</p>
 
-### Applied Mathematics × Interpretable Machine Learning × Scientific Computing
+<p align="center">
+  I develop <b>interpretable and mathematically structured machine-learning models</b><br>
+  for scientific and engineering systems.
+</p>
 
-**Incoming MPhil in Data Intensive Science @ University of Cambridge**
-
-I build **interpretable and mathematically structured machine-learning models**
-for scientific and engineering systems.
-
-<br>
-
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square\&logo=googlescholar\&logoColor=white)](https://scholar.google.co.uk/citations?user=aMrqOe0AAAAJ)
-![Research](https://img.shields.io/badge/Research-Interpretable%20ML-555555?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Scientific%20ML-555555?style=flat-square)
-
-</div>
+<p align="center">
+  <a href="https://scholar.google.co.uk/citations?user=aMrqOe0AAAAJ">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Profile-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar">
+  </a>
+</p>
 
 ---
 
@@ -28,155 +26,164 @@ for scientific and engineering systems.
 I am currently studying how high-performing deep reinforcement-learning policies can be transformed into **compact, interpretable, and physically meaningful decision rules** for constrained energy-management problems.
 
 ```text
-Deep RL Teacher
-      │
-      ▼
- Safety Layer
-      │
-      ▼
-Policy Dataset
-      │
-      ├──────────────┐
-      ▼              ▼
-Decision Rules   Symbolic Models
-      │              │
-      └──────┬───────┘
-             ▼
-      Interpretable Policy
-             │
-             ▼
-Safety · Fidelity · Performance
+                Deep RL Teacher
+                       │
+                       ▼
+                 Safety Layer
+                       │
+                       ▼
+                 Policy Dataset
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+        Decision Rules     Symbolic Models
+              │                 │
+              └────────┬────────┘
+                       ▼
+              Interpretable Policy
+                       │
+                       ▼
+          Safety · Fidelity · Performance
 ```
 
-**Current topics**
+`Safe RL` · `SAC` · `Policy Distillation` · `Symbolic Regression` · `Microgrids`
 
-`Safe RL` · `SAC` · `PPO` · `Policy Distillation` · `Symbolic Regression` · `Microgrids`
+My broader interest is in building data-driven models that are **interpretable, mathematically structured, physically meaningful, and robust**.
 
 ---
 
-## 🧭 Research Interests
-
-```mermaid
-flowchart LR
-    A["Applied Mathematics"] --> B["Scientific ML"]
-    A --> C["Optimization"]
-
-    B --> D["Interpretable ML"]
-
-    D --> E["Symbolic Regression"]
-    D --> F["Interpretable RL"]
-
-    E --> G["Physical Systems"]
-    F --> H["Energy Systems"]
-
-    C --> H
-```
-
-My broader interests lie in developing machine-learning models that are:
-
-* **Interpretable** — predictions and decisions can be understood.
-* **Mathematically structured** — learned behaviour can be represented by equations, rules, or constraints.
-* **Physically meaningful** — models respect the structure of the underlying system.
-* **Robust** — models remain useful beyond the data on which they were trained.
-
----
-
-# 🚀 Featured Research
+## 🚀 Featured Research
 
 <table>
 <tr>
-
 <td width="50%" valign="top">
 
-### ⚡ Interpretable Chiller Modeling
+<h3>🧠 Interpretable RL for Microgrids</h3>
 
-Symbolic regression for discovering compact mathematical models of chiller COP.
+<p>
+Extracting transparent decision policies from deep reinforcement-learning agents for constrained microgrid energy management.
+</p>
 
-**Research focus**
+<b>Research focus</b>
 
-* Physics-informed modeling
-* Symbolic regression
-* Model generalization
-* Accuracy–complexity trade-offs
-* Closed-form optimization
+<ul>
+<li>Continuous-control reinforcement learning</li>
+<li>Analytical safety constraints</li>
+<li>Policy distillation</li>
+<li>Symbolic policy extraction</li>
+<li>Robustness and generalization</li>
+</ul>
 
-**Methods**
+<b>Methods</b>
 
-`Python` `PySR` `SciPy` `scikit-learn`
+<p>
+<code>Python</code>
+<code>PyTorch</code>
+<code>Stable-Baselines3</code>
+<code>Symbolic Regression</code>
+</p>
 
-[View repository →](https://github.com/zeweyer/Interpretable-Chiller-Modeling)
+<p><b>Ongoing research</b></p>
 
 </td>
 
 <td width="50%" valign="top">
 
-### ⚛️ Coarse-Grained Potential Modeling
+<h3>⚡ Interpretable Chiller Modeling</h3>
 
-Learning analytical coarse-grained interaction potentials directly from molecular simulation data.
+<p>
+Discovering compact mathematical models of chiller COP using symbolic regression and physics-informed analysis.
+</p>
 
-**Research focus**
+<b>Research focus</b>
 
-* Symbolic regression
-* Molecular dynamics
-* Pareto model selection
-* Physical validation
-* Interpretable force fields
+<ul>
+<li>Physics-informed modeling</li>
+<li>Symbolic regression</li>
+<li>Model generalization</li>
+<li>Accuracy–complexity trade-offs</li>
+<li>Closed-form optimization</li>
+</ul>
 
-**Methods**
+<b>Methods</b>
 
-`Python` `gplearn` `NumPy` `SciPy`
+<p>
+<code>Python</code>
+<code>PySR</code>
+<code>SciPy</code>
+<code>scikit-learn</code>
+</p>
 
-[View repository →](https://github.com/zeweyer/cgpm)
+<p>
+<a href="https://github.com/zeweyer/Interpretable-Chiller-Modeling"><b>View repository →</b></a>
+</p>
 
 </td>
-
 </tr>
 
 <tr>
-
 <td width="50%" valign="top">
 
-### 🧠 Interpretable RL for Microgrids
+<h3>⚛️ Coarse-Grained Potential Modeling</h3>
 
-Extracting transparent decision policies from deep reinforcement-learning agents for constrained microgrid operation.
+<p>
+Learning analytical coarse-grained interaction potentials directly from molecular simulation data.
+</p>
 
-**Research focus**
+<b>Research focus</b>
 
-* Continuous-control RL
-* Analytical safety constraints
-* Policy distillation
-* Symbolic policy extraction
-* Robustness & generalization
+<ul>
+<li>Scientific symbolic regression</li>
+<li>Molecular dynamics</li>
+<li>Pareto model selection</li>
+<li>Physical validation</li>
+<li>Interpretable force fields</li>
+</ul>
 
-**Methods**
+<b>Methods</b>
 
-`Python` `PyTorch` `Stable-Baselines3`
+<p>
+<code>Python</code>
+<code>gplearn</code>
+<code>NumPy</code>
+<code>SciPy</code>
+</p>
 
-**Ongoing research**
+<p>
+<a href="https://github.com/zeweyer/cgpm"><b>View repository →</b></a>
+</p>
 
 </td>
 
 <td width="50%" valign="top">
 
-### 🛰️ Drop-Tower Braking Dynamics
+<h3>🛰️ Drop-Tower Braking Dynamics</h3>
 
-Physics-based mathematical modeling and numerical simulation of braking dynamics.
+<p>
+Physics-based mathematical modeling and numerical simulation of braking dynamics in drop-tower systems.
+</p>
 
-**Research focus**
+<b>Research focus</b>
 
-* Dynamical systems
-* Numerical simulation
-* Physical modeling
-* Parameter analysis
+<ul>
+<li>Dynamical systems</li>
+<li>Numerical simulation</li>
+<li>Physical modeling</li>
+<li>Parameter analysis</li>
+</ul>
 
-**Methods**
+<b>Methods</b>
 
-`MATLAB` `Numerical Methods`
+<p>
+<code>MATLAB</code>
+<code>Numerical Methods</code>
+</p>
 
-[View repository →](https://github.com/zeweyer/drop-tower-braking-dynamics)
+<p>
+<a href="https://github.com/zeweyer/drop-tower-braking-dynamics"><b>View repository →</b></a>
+</p>
 
 </td>
-
 </tr>
 </table>
 
@@ -184,81 +191,74 @@ Physics-based mathematical modeling and numerical simulation of braking dynamics
 
 ## 📐 From Black Boxes to Scientific Models
 
-A recurring theme in my work is:
+A recurring theme across my research is turning complex data-driven models into **compact representations that can be inspected, tested, and reasoned about**.
 
 ```text
-                 DATA
-                  │
-                  ▼
-         ┌─────────────────┐
-         │ Complex Model   │
-         │ NN / RL / ML    │
-         └────────┬────────┘
-                  │
-                  │ interpretation
-                  ▼
-       ┌─────────────────────┐
-       │ Structured Model    │
-       │ equation / rule     │
-       └──────────┬──────────┘
-                  │
-        ┌─────────┼─────────┐
-        ▼         ▼         ▼
-   Accuracy   Physics   Interpretability
+                         DATA
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │  Complex Model  │
+                 │   NN / RL / ML  │
+                 └────────┬────────┘
+                          │
+                    interpretation
+                          │
+                          ▼
+               ┌─────────────────────┐
+               │  Structured Model   │
+               │ equation / rule /   │
+               │ constrained policy  │
+               └──────────┬──────────┘
+                          │
+               ┌──────────┼──────────┐
+               ▼          ▼          ▼
+           Performance  Physics  Interpretability
 ```
 
-Rather than treating predictive performance as the only objective, I am interested in the trade-off between **performance, interpretability, complexity, and physical consistency**.
+Rather than treating predictive performance as the only objective, I am interested in the trade-offs between **performance, interpretability, complexity, physical consistency, and robustness**.
 
 ---
 
-## 🧰 Research Toolkit
+## 🧰 Methods & Tools
 
-### Machine Learning
+<p align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square\&logo=pytorch\&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square\&logo=scikitlearn\&logoColor=white)
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch">
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn">
+<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy">
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white" alt="SciPy">
+<img src="https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white" alt="R">
 
-`Reinforcement Learning` · `Symbolic Regression` · `Interpretable ML`
+</p>
 
-### Scientific Computing
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square\&logo=numpy\&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square\&logo=scipy\&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square\&logo=r\&logoColor=white)
-
-`Optimization` · `Numerical Simulation` · `Statistical Modeling`
-
-### Research Workflow
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square\&logo=latex\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
-
----
-
-## 📚 Selected Research
-
-**Interpretable modeling of chiller performance**
-Symbolic-regression-based modeling of energy-system performance, with emphasis on physical interpretability and generalization.
-
-**Symbolic regression for coarse-grained molecular modeling**
-Learning compact interaction potentials from molecular-dynamics data while balancing predictive performance and mathematical complexity.
-
-**Interpretable reinforcement learning for constrained energy management**
-Ongoing research into transparent policy extraction from deep RL agents under operational safety constraints.
+<p align="center">
+  <code>Reinforcement Learning</code>
+  ·
+  <code>Symbolic Regression</code>
+  ·
+  <code>Interpretable ML</code>
+  ·
+  <code>Optimization</code>
+  ·
+  <code>Scientific Computing</code>
+  ·
+  <code>Statistical Modeling</code>
+</p>
 
 ---
 
 ## 📫 Connect
 
-[![GitHub](https://img.shields.io/badge/GitHub-zeweyer-181717?style=flat-square\&logo=github)](https://github.com/zeweyer)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Research-4285F4?style=flat-square\&logo=googlescholar\&logoColor=white)](https://scholar.google.co.uk/citations?user=aMrqOe0AAAAJ)
+<p align="center">
+  <a href="https://scholar.google.co.uk/citations?user=aMrqOe0AAAAJ">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Research-4285F4?style=flat-square&logo=googlescholar&logoColor=white" alt="Google Scholar">
+  </a>
+</p>
 
 ---
 
-<div align="center">
-
-### Mathematics → Models → Decisions → Understanding
-
-</div>
+<p align="center">
+  <b>Mathematics → Models → Decisions → Understanding</b>
+</p>
