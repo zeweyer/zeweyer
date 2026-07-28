@@ -1,6 +1,7 @@
 <p align="center">
   <img src="./assets/header.svg" width="100%" alt="Zewey GitHub Profile Header">
 </p>
+
 # Hi, I'm Zewey 👋
 
 ### Applied Mathematics × Interpretable Machine Learning × Scientific Computing
