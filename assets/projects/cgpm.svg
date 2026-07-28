@@ -1,0 +1,114 @@
+<svg width="800" height="420" viewBox="0 0 800 420"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="420" rx="24" fill="url(#bg)"/>
+
+  <rect x="1" y="1" width="798" height="418" rx="23"
+        fill="none" stroke="#30363d"/>
+
+  <!-- molecular-style decoration -->
+  <g opacity="0.13" stroke="#a371f7" stroke-width="2">
+    <line x1="630" y1="75" x2="680" y2="45"/>
+    <line x1="630" y1="75" x2="680" y2="115"/>
+    <line x1="680" y1="45" x2="730" y2="75"/>
+    <line x1="680" y1="115" x2="730" y2="75"/>
+
+    <circle cx="630" cy="75" r="8" fill="#a371f7"/>
+    <circle cx="680" cy="45" r="8" fill="#58a6ff"/>
+    <circle cx="680" cy="115" r="8" fill="#58a6ff"/>
+    <circle cx="730" cy="75" r="8" fill="#a371f7"/>
+  </g>
+
+  <text x="55" y="65"
+        fill="#a371f7"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17"
+        font-weight="700"
+        letter-spacing="3">
+    PROJECT 03
+  </text>
+
+  <text x="55" y="150"
+        fill="#f0f6fc"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="40"
+        font-weight="700"
+        letter-spacing="1">
+    COARSE-GRAINED
+  </text>
+
+  <text x="55" y="200"
+        fill="#f0f6fc"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="40"
+        font-weight="700"
+        letter-spacing="1">
+    POTENTIAL MODELING
+  </text>
+
+  <rect x="55" y="235"
+        width="690" height="2"
+        fill="url(#accent)"/>
+
+  <text x="55" y="280"
+        fill="#8b949e"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="17">
+    Symbolic Regression · Molecular Modelling · Scientific Computing
+  </text>
+
+  <text x="55" y="350"
+        fill="#c9d1d9"
+        font-family="monospace"
+        font-size="19">
+    simulation
+  </text>
+
+  <text x="170" y="350"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="20">
+    →
+  </text>
+
+  <text x="215" y="350"
+        fill="#58a6ff"
+        font-family="monospace"
+        font-size="21">
+    U(r)
+  </text>
+
+  <text x="285" y="350"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="20">
+    →
+  </text>
+
+  <text x="330" y="350"
+        fill="#c9d1d9"
+        font-family="monospace"
+        font-size="19">
+    physical validation
+  </text>
+
+  <text x="690" y="370"
+        fill="#30363d"
+        font-family="serif"
+        font-size="34">
+    U(r)
+  </text>
+
+</svg>
