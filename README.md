@@ -7,8 +7,7 @@
 </p>
 
 <p align="center">
-  I develop <b>interpretable and mathematically structured machine-learning models</b><br>
-  for scientific and engineering systems.
+  I am interested in building <b>interpretable, mathematically structured, and physically meaningful machine-learning models</b> for scientific and engineering problems.
 </p>
 
 <p align="center">
@@ -23,32 +22,11 @@
 
 ### Interpretable Reinforcement Learning for Energy Systems
 
-I am currently studying how high-performing deep reinforcement-learning policies can be transformed into **compact, interpretable, and physically meaningful decision rules** for constrained energy-management problems.
+I am currently exploring how deep reinforcement-learning policies can be transformed into **compact and interpretable decision rules** while preserving operational performance and safety.
 
-```text
-                Deep RL Teacher
-                       │
-                       ▼
-                 Safety Layer
-                       │
-                       ▼
-                 Policy Dataset
-                       │
-              ┌────────┴────────┐
-              ▼                 ▼
-        Decision Rules     Symbolic Models
-              │                 │
-              └────────┬────────┘
-                       ▼
-              Interpretable Policy
-                       │
-                       ▼
-          Safety · Fidelity · Performance
-```
+My current work focuses on interpretable policy extraction for **microgrid energy management**, with broader interests in trustworthy reinforcement learning and scientific machine learning.
 
-`Safe RL` · `SAC` · `Policy Distillation` · `Symbolic Regression` · `Microgrids`
-
-My broader interest is in building data-driven models that are **interpretable, mathematically structured, physically meaningful, and robust**.
+`Interpretable RL` · `Safe RL` · `Symbolic Regression` · `Energy Systems`
 
 ---
 
@@ -61,25 +39,12 @@ My broader interest is in building data-driven models that are **interpretable, 
 <h3>🧠 Interpretable RL for Microgrids</h3>
 
 <p>
-Extracting transparent decision policies from deep reinforcement-learning agents for constrained microgrid energy management.
+Developing transparent decision policies for constrained microgrid energy management by interpreting and distilling deep reinforcement-learning agents.
 </p>
 
-<b>Research focus</b>
-
-<ul>
-<li>Continuous-control reinforcement learning</li>
-<li>Analytical safety constraints</li>
-<li>Policy distillation</li>
-<li>Symbolic policy extraction</li>
-<li>Robustness and generalization</li>
-</ul>
-
-<b>Methods</b>
-
 <p>
-<code>Python</code>
-<code>PyTorch</code>
-<code>Stable-Baselines3</code>
+<code>Interpretable RL</code>
+<code>Safe Control</code>
 <code>Symbolic Regression</code>
 </p>
 
@@ -92,26 +57,13 @@ Extracting transparent decision policies from deep reinforcement-learning agents
 <h3>⚡ Interpretable Chiller Modeling</h3>
 
 <p>
-Discovering compact mathematical models of chiller COP using symbolic regression and physics-informed analysis.
+Using symbolic regression to discover compact mathematical models of chiller performance with an emphasis on physical interpretability and generalization.
 </p>
 
-<b>Research focus</b>
-
-<ul>
-<li>Physics-informed modeling</li>
-<li>Symbolic regression</li>
-<li>Model generalization</li>
-<li>Accuracy–complexity trade-offs</li>
-<li>Closed-form optimization</li>
-</ul>
-
-<b>Methods</b>
-
 <p>
-<code>Python</code>
-<code>PySR</code>
-<code>SciPy</code>
-<code>scikit-learn</code>
+<code>Symbolic Regression</code>
+<code>Scientific ML</code>
+<code>Energy Systems</code>
 </p>
 
 <p>
@@ -127,26 +79,13 @@ Discovering compact mathematical models of chiller COP using symbolic regression
 <h3>⚛️ Coarse-Grained Potential Modeling</h3>
 
 <p>
-Learning analytical coarse-grained interaction potentials directly from molecular simulation data.
+Learning compact analytical interaction potentials from molecular simulation data using symbolic regression and physics-based validation.
 </p>
 
-<b>Research focus</b>
-
-<ul>
-<li>Scientific symbolic regression</li>
-<li>Molecular dynamics</li>
-<li>Pareto model selection</li>
-<li>Physical validation</li>
-<li>Interpretable force fields</li>
-</ul>
-
-<b>Methods</b>
-
 <p>
-<code>Python</code>
-<code>gplearn</code>
-<code>NumPy</code>
-<code>SciPy</code>
+<code>Symbolic Regression</code>
+<code>Molecular Modeling</code>
+<code>Scientific Computing</code>
 </p>
 
 <p>
@@ -163,20 +102,10 @@ Learning analytical coarse-grained interaction potentials directly from molecula
 Physics-based mathematical modeling and numerical simulation of braking dynamics in drop-tower systems.
 </p>
 
-<b>Research focus</b>
-
-<ul>
-<li>Dynamical systems</li>
-<li>Numerical simulation</li>
-<li>Physical modeling</li>
-<li>Parameter analysis</li>
-</ul>
-
-<b>Methods</b>
-
 <p>
-<code>MATLAB</code>
+<code>Dynamical Systems</code>
 <code>Numerical Methods</code>
+<code>MATLAB</code>
 </p>
 
 <p>
@@ -189,34 +118,28 @@ Physics-based mathematical modeling and numerical simulation of braking dynamics
 
 ---
 
-## 📐 From Black Boxes to Scientific Models
+## 📐 Research Theme
 
-A recurring theme across my research is turning complex data-driven models into **compact representations that can be inspected, tested, and reasoned about**.
+A recurring theme across my work is moving from complex data-driven models toward **structured representations that can be understood, tested, and connected to the underlying physics**.
 
 ```text
-                         DATA
-                          │
-                          ▼
-                 ┌─────────────────┐
-                 │  Complex Model  │
-                 │   NN / RL / ML  │
-                 └────────┬────────┘
-                          │
-                    interpretation
-                          │
-                          ▼
-               ┌─────────────────────┐
-               │  Structured Model   │
-               │ equation / rule /   │
-               │ constrained policy  │
-               └──────────┬──────────┘
-                          │
-               ┌──────────┼──────────┐
-               ▼          ▼          ▼
-           Performance  Physics  Interpretability
+        Data / Physical System
+                 │
+                 ▼
+          Complex Model
+           ML / RL / NN
+                 │
+          interpretation
+                 ▼
+        Structured Model
+       equation / rule / policy
+                 │
+        ┌────────┼────────┐
+        ▼        ▼        ▼
+   Performance  Physics  Interpretability
 ```
 
-Rather than treating predictive performance as the only objective, I am interested in the trade-offs between **performance, interpretability, complexity, physical consistency, and robustness**.
+I am particularly interested in the trade-offs between **predictive performance, interpretability, model complexity, robustness, and physical consistency**.
 
 ---
 
@@ -243,8 +166,6 @@ Rather than treating predictive performance as the only objective, I am interest
   <code>Optimization</code>
   ·
   <code>Scientific Computing</code>
-  ·
-  <code>Statistical Modeling</code>
 </p>
 
 ---
