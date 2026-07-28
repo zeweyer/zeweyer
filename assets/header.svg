@@ -1,1 +1,125 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360"
+     xmlns="http://www.w3.org/2000/svg">
 
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#a371f7"/>
+      <stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+
+  <!-- Decorative mathematical structure -->
+  <g opacity="0.10" fill="#8b949e"
+     font-family="monospace">
+
+    <text x="70" y="70" font-size="24">π(a|s)</text>
+    <text x="940" y="80" font-size="22">∂x/∂t = f(x,u)</text>
+    <text x="85" y="300" font-size="20">min J(π)</text>
+    <text x="890" y="300" font-size="20">
+      a = β₀ + β₁p + β₂SOC
+    </text>
+
+  </g>
+
+  <!-- Neural-network decoration -->
+  <g stroke="#58a6ff" stroke-width="2" opacity="0.15">
+
+    <line x1="150" y1="125" x2="220" y2="100"/>
+    <line x1="150" y1="125" x2="220" y2="155"/>
+    <line x1="150" y1="195" x2="220" y2="155"/>
+    <line x1="150" y1="195" x2="220" y2="210"/>
+
+    <circle cx="150" cy="125" r="8" fill="#58a6ff"/>
+    <circle cx="150" cy="195" r="8" fill="#58a6ff"/>
+
+    <circle cx="220" cy="100" r="8" fill="#58a6ff"/>
+    <circle cx="220" cy="155" r="8" fill="#58a6ff"/>
+    <circle cx="220" cy="210" r="8" fill="#58a6ff"/>
+
+  </g>
+
+  <!-- Symbolic transformation arrow -->
+  <path d="M265 160 L325 160"
+        stroke="url(#accent)"
+        stroke-width="3"
+        opacity="0.45"/>
+
+  <path d="M315 150 L330 160 L315 170"
+        fill="none"
+        stroke="#a371f7"
+        stroke-width="3"
+        opacity="0.45"/>
+
+  <!-- Main name -->
+  <text x="600" y="125"
+        text-anchor="middle"
+        fill="#f0f6fc"
+        font-size="65"
+        font-weight="700"
+        font-family="Arial, Helvetica, sans-serif"
+        letter-spacing="8">
+    ZEWEY
+  </text>
+
+  <!-- Accent line -->
+  <rect x="445" y="150"
+        width="310" height="3"
+        rx="2"
+        fill="url(#accent)"
+        filter="url(#glow)"/>
+
+  <!-- Research identity -->
+  <text x="600" y="205"
+        text-anchor="middle"
+        fill="#c9d1d9"
+        font-size="25"
+        font-weight="500"
+        font-family="Arial, Helvetica, sans-serif"
+        letter-spacing="3">
+    INTERPRETABLE INTELLIGENCE
+  </text>
+
+  <text x="600" y="240"
+        text-anchor="middle"
+        fill="#8b949e"
+        font-size="19"
+        font-family="Arial, Helvetica, sans-serif"
+        letter-spacing="2">
+    FOR SCIENTIFIC SYSTEMS
+  </text>
+
+  <!-- Bottom -->
+  <text x="600" y="295"
+        text-anchor="middle"
+        fill="#8b949e"
+        font-size="16"
+        font-family="Arial, Helvetica, sans-serif">
+    Applied Mathematics  ·  Scientific ML  ·  Reinforcement Learning
+  </text>
+
+  <text x="600" y="325"
+        text-anchor="middle"
+        fill="#58a6ff"
+        font-size="15"
+        font-family="Arial, Helvetica, sans-serif">
+    Incoming MPhil in Data Intensive Science · University of Cambridge
+  </text>
+
+</svg>
