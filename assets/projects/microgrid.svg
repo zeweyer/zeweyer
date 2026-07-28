@@ -6,9 +6,32 @@
       <stop offset="0%" stop-color="#0d1117"/>
       <stop offset="100%" stop-color="#161b22"/>
     </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#a371f7"/>
+    </linearGradient>
   </defs>
 
+  <!-- background -->
   <rect width="800" height="420" rx="24" fill="url(#bg)"/>
+
+  <!-- subtle border -->
+  <rect x="1" y="1" width="798" height="418" rx="23"
+        fill="none" stroke="#30363d"/>
+
+  <!-- decorative nodes -->
+  <g opacity="0.13" stroke="#58a6ff" stroke-width="1.5">
+    <line x1="620" y1="70" x2="675" y2="105"/>
+    <line x1="620" y1="70" x2="675" y2="55"/>
+    <line x1="675" y1="105" x2="735" y2="80"/>
+    <line x1="675" y1="55" x2="735" y2="80"/>
+
+    <circle cx="620" cy="70" r="6" fill="#58a6ff"/>
+    <circle cx="675" cy="55" r="6" fill="#58a6ff"/>
+    <circle cx="675" cy="105" r="6" fill="#58a6ff"/>
+    <circle cx="735" cy="80" r="6" fill="#58a6ff"/>
+  </g>
 
   <!-- project number -->
   <text x="55" y="65"
@@ -21,42 +44,72 @@
   </text>
 
   <!-- title -->
-  <text x="55" y="155"
+  <text x="55" y="150"
         fill="#f0f6fc"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="41"
-        font-weight="700">
+        font-size="40"
+        font-weight="700"
+        letter-spacing="1">
     INTERPRETABLE RL
   </text>
 
-  <text x="55" y="205"
+  <text x="55" y="200"
         fill="#f0f6fc"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="41"
-        font-weight="700">
+        font-size="40"
+        font-weight="700"
+        letter-spacing="1">
     FOR MICROGRIDS
   </text>
 
-  <!-- divider -->
-  <line x1="55" y1="245"
-        x2="745" y2="245"
-        stroke="#30363d"
-        stroke-width="2"/>
+  <!-- accent divider -->
+  <rect x="55" y="235"
+        width="690" height="2"
+        fill="url(#accent)"/>
 
-  <!-- tags -->
-  <text x="55" y="295"
+  <!-- description -->
+  <text x="55" y="280"
         fill="#8b949e"
         font-family="Arial, Helvetica, sans-serif"
         font-size="17">
     Reinforcement Learning · Interpretability · Energy Systems
   </text>
 
-  <!-- mathematical accent -->
-  <text x="555" y="360"
+  <!-- conceptual transformation -->
+  <text x="55" y="350"
+        fill="#c9d1d9"
+        font-family="monospace"
+        font-size="19">
+    policy
+  </text>
+
+  <text x="130" y="350"
         fill="#58a6ff"
         font-family="monospace"
-        font-size="24">
-    π(a|s) → f(s)
+        font-size="20">
+    π(a|s)
+  </text>
+
+  <text x="220" y="350"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="20">
+    →
+  </text>
+
+  <text x="260" y="350"
+        fill="#c9d1d9"
+        font-family="monospace"
+        font-size="19">
+    interpretable structure
+  </text>
+
+  <!-- corner -->
+  <text x="695" y="370"
+        fill="#30363d"
+        font-family="monospace"
+        font-size="34">
+    RL
   </text>
 
 </svg>
