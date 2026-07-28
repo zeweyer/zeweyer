@@ -3,7 +3,9 @@
 </p>
 
 <p align="center">
-  <b>Incoming MPhil in Data Intensive Science · University of Cambridge</b>
+  <b>Research Assistant @ The Hong Kong Polytechnic University</b>
+  &nbsp; · &nbsp;
+  <b>Incoming MPhil DIS @ University of Cambridge</b>
 </p>
 
 <p align="center">
@@ -16,13 +18,14 @@
   </a>
 </p>
 
+
 ---
 
 ## About
 
-I am interested in problems at the intersection of **applied mathematics, model interpretability, and data-driven modelling**.
+I graduated with First Class Honours in Mathematics from the University of Nottingham and am currently a Research Assistant at The Hong Kong Polytechnic University.
 
-My work explores how mathematical and computational methods can reveal useful structure in **data, physical systems, and complex models**.
+My research interests lie broadly in **model interpretability** and **mathematical and data-driven modelling**, particularly for scientific and engineering applications.
 
 ---
 
@@ -74,6 +77,9 @@ Using mathematical and computational methods to represent and analyse scientific
 
 <h3>Interpretable RL for Microgrids</h3>
 
+<sub>Research Assistant · The Hong Kong Polytechnic University</sub>
+<br><br>
+
 Investigating interpretable representations of reinforcement-learning policies for constrained energy-management problems.
 
 <br><br>
@@ -95,6 +101,9 @@ Investigating interpretable representations of reinforcement-learning policies f
 </a>
 
 <h3>Interpretable Chiller Modeling</h3>
+
+<sub>Research Assistant · University of Nottingham Ningbo China</sub>
+<br><br>
 
 Developing compact analytical models of chiller performance from operational data using symbolic regression, with emphasis on generalisation and physical consistency.
 
@@ -123,6 +132,9 @@ Developing compact analytical models of chiller performance from operational dat
 </a>
 
 <h3>Coarse-Grained Potential Modeling</h3>
+
+<sub>Visiting Student · Shenzhen Bay Laboratory</sub>
+<br><br>
 
 Discovering analytical interaction potentials from molecular-simulation data while balancing predictive accuracy, mathematical complexity, and physical fidelity.
 
