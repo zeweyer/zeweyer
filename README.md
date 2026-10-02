@@ -5,7 +5,7 @@
 <p align="center">
   <b>Research Assistant @ The Hong Kong Polytechnic University</b>
   &nbsp; · &nbsp;
-  <b>Incoming MPhil DIS @ University of Cambridge</b>
+  <b>MPhil DIS @ University of Cambridge</b>
 </p>
 
 <p align="center">
